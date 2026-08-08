@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Application logs
+logs/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
