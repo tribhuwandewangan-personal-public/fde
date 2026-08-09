@@ -1,5 +1,7 @@
 import pytest
+from datetime import datetime, timezone
 from src.models import Customer, SupportTicket, TicketPriority
+from src.repository import parse_ticket_timestamp
 from src.validation import validate_ticket, validate_ticket_for_triage
 from src.exceptions import TicketValidationError
 
@@ -29,6 +31,7 @@ def test_valid_ticket_can_be_triaged():
         customer=customer,
         subject="Unable to login",
         description="Customer cannot access the application.",
+        created_at=datetime(2026, 8, 9, 9, 30, tzinfo=timezone.utc),
     )
 
     errors = validate_ticket(ticket)
@@ -42,7 +45,19 @@ def test_ticket_without_subject_is_rejected():
         subject="",
         ticket_id="T1001",
         description="Customer cannot access the application.",
+        created_at=datetime(2026, 8, 9, 9, 30, tzinfo=timezone.utc),
     )
 
     with pytest.raises(TicketValidationError):
         validate_ticket(ticket)
+
+
+def test_parse_ticket_timestamp_accepts_utc():
+    timestamp = parse_ticket_timestamp("2026-08-09T09:30:00+00:00")
+
+    assert timestamp == datetime(2026, 8, 9, 9, 30, tzinfo=timezone.utc)
+
+
+def test_parse_ticket_timestamp_rejects_naive_value():
+    with pytest.raises(ValueError):
+        parse_ticket_timestamp("2026-08-09T09:30:00")

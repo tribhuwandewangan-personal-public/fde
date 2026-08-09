@@ -1,0 +1,101 @@
+ticket_id,customer_id,customer_name,customer_email,subject,description,priority,status,created_at
+T1001,C1001,Alice Johnson,alice@example.com,Unable to login,Customer cannot access the application after resetting a password.,HIGH,OPEN,2026-08-08T19:37:43Z
+T1002,C1002,Marcus Lee,marcus@example.com,Invoice shows incorrect amount,The latest invoice includes a duplicate charge for the monthly plan.,CRITICAL,IN_PROGRESS,2026-07-15T06:54:06Z
+T1003,C1003,Priya Shah,priya@example.com,Request for usage report,Customer needs a monthly usage report for their account review.,MEDIUM,RESOLVED,2026-08-22T17:11:29Z
+T1004,C1004,Sam Rivera,sam@example.com,Update notification preferences,Customer wants to stop receiving weekly product update emails.,LOW,CLOSED,2026-07-01T04:28:52Z
+T1005,C1005,Jordan Kim,jordan@example.com,Password reset email delayed,Customer has not received the password reset email after several minutes.,MEDIUM,OPEN,2026-08-08T15:45:15Z
+T1006,C1006,Taylor Morgan,taylor@example.com,Export report is incomplete,The downloaded report is missing several records from the selected date range.,HIGH,IN_PROGRESS,2026-07-15T02:02:38Z
+T1007,C1007,Riley Chen,riley@example.com,Two factor code rejected,The security code is rejected even though it was generated recently.,HIGH,OPEN,2026-08-22T13:19:01Z
+T1008,C1008,Casey Patel,casey@example.com,Need billing receipt,Customer requests a receipt for the most recent subscription payment.,LOW,RESOLVED,2026-07-01T00:36:24Z
+T1009,C1009,Jamie Brooks,jamie@example.com,Dashboard loads slowly,The dashboard takes more than thirty seconds to display account metrics.,MEDIUM,OPEN,2026-08-08T11:53:47Z
+T1010,C1010,Morgan Ellis,morgan@example.com,Account owner update,Customer needs the account owner changed to a new team administrator.,LOW,CLOSED,2026-07-15T22:10:10Z
+T1011,C1001,Alice Johnson,alice@example.com,Unable to update profile,Profile changes are not saved after the customer submits the form.,MEDIUM,OPEN,2026-08-22T09:27:33Z
+T1012,C1002,Marcus Lee,marcus@example.com,Duplicate monthly charge,The account was charged twice for the same monthly subscription period.,CRITICAL,IN_PROGRESS,2026-07-01T20:44:56Z
+T1013,C1003,Priya Shah,priya@example.com,Missing usage records,Several usage records are absent from the monthly account report.,HIGH,RESOLVED,2026-08-08T07:01:19Z
+T1014,C1004,Sam Rivera,sam@example.com,Email preference not saved,The selected email preferences revert after the settings page is refreshed.,LOW,CLOSED,2026-07-15T18:18:42Z
+T1015,C1005,Jordan Kim,jordan@example.com,Password reset link expired,The reset link expires before the customer can complete the password change.,HIGH,OPEN,2026-08-22T05:35:05Z
+T1016,C1006,Taylor Morgan,taylor@example.com,CSV export times out,The report export times out when the customer selects a full year.,HIGH,IN_PROGRESS,2026-07-01T16:52:28Z
+T1017,C1007,Riley Chen,riley@example.com,Authenticator setup issue,The customer cannot finish setting up an authenticator for the account.,HIGH,OPEN,2026-08-08T03:09:51Z
+T1018,C1008,Casey Patel,casey@example.com,Receipt has wrong address,The payment receipt displays an outdated billing address.,MEDIUM,RESOLVED,2026-07-15T14:26:14Z
+T1019,C1009,Jamie Brooks,jamie@example.com,Metrics display stale data,The dashboard continues showing yesterday's metrics after a recent update.,MEDIUM,OPEN,2026-08-22T01:43:37Z
+T1020,C1010,Morgan Ellis,morgan@example.com,Team member invitation,The customer cannot invite a new member to the account workspace.,LOW,CLOSED,2026-07-01T12:00:00Z
+T1021,C1001,Alice Johnson,alice@example.com,Login redirects repeatedly,The login page redirects repeatedly and never opens the customer workspace.,HIGH,OPEN,2026-08-08T23:17:23Z
+T1022,C1002,Marcus Lee,marcus@example.com,Plan change failed,The subscription plan change returns an error before completing.,CRITICAL,IN_PROGRESS,2026-07-15T10:34:46Z
+T1023,C1003,Priya Shah,priya@example.com,Report filter ignored,The selected department filter is ignored in the generated report.,MEDIUM,RESOLVED,2026-08-22T21:51:09Z
+T1024,C1004,Sam Rivera, sam@example.com,Unsubscribe request,Customer wants to unsubscribe from all non essential messages.,LOW,CLOSED,2026-07-01T08:08:32Z
+T1025,C1005,Jordan Kim,jordan@example.com,Password policy question,Customer needs clarification about the required password format.,LOW,OPEN,2026-08-08T19:25:55Z
+T1026,C1006,Taylor Morgan,taylor@example.com,Export column missing,The exported file does not include the custom column selected by the customer.,MEDIUM,IN_PROGRESS,2026-07-15T06:42:18Z
+T1027,C1007,Riley Chen,riley@example.com,Verification code missing,The verification code is not delivered to the registered phone number.,HIGH,OPEN,2026-08-22T17:59:41Z
+T1028,C1008,Casey Patel,casey@example.com,Payment confirmation missing,The customer has not received confirmation for a completed payment.,MEDIUM,RESOLVED,2026-07-01T04:16:04Z
+T1029,C1009,Jamie Brooks,jamie@example.com,Dashboard chart unavailable,One chart remains blank while the other dashboard metrics load normally.,MEDIUM,OPEN,2026-08-08T15:33:27Z
+T1030,C1010,Morgan Ellis,morgan@example.com,Remove former employee,The customer requests removal of a former employee from the workspace.,LOW,CLOSED,2026-07-15T02:50:50Z
+T1031,C1001,Alice Johnson,alice@example.com,Session ended unexpectedly,The customer is signed out while actively working in the application.,HIGH,OPEN,2026-08-22T13:07:13Z
+T1032,C1002,Marcus Lee,marcus@example.com,Tax calculation incorrect,The invoice tax amount does not match the configured billing region.,CRITICAL,IN_PROGRESS,2026-07-01T00:24:36Z
+T1033,C1003,Priya Shah,priya@example.com,Report download unavailable,The completed report cannot be downloaded from the reports page.,HIGH,RESOLVED,2026-08-08T11:41:59Z
+T1034,C1004,Sam Rivera,sam@example.com,Notification frequency change,Customer requests monthly notifications instead of weekly messages.,LOW,CLOSED,2026-07-15T22:58:22Z
+T1035,C1005,Jordan Kim,jordan@example.com,Reset email uses old address,Password reset messages are being sent to an outdated email address.,HIGH,OPEN,2026-08-22T09:15:45Z
+T1036,C1006,Taylor Morgan,taylor@example.com,Large export is empty,The export completes successfully but contains no rows for a large query.,HIGH,IN_PROGRESS,2026-07-01T20:32:08Z
+T1037,C1007,Riley Chen,riley@example.com,Two factor device replacement,Customer needs help replacing a lost authentication device.,HIGH,OPEN,2026-08-08T07:49:31Z
+T1038,C1008,Casey Patel,jordan@example.com,Refund status request,Customer asks when an approved subscription refund will be processed.,MEDIUM,RESOLVED,2026-07-15T18:06:54Z
+T1039,C1009,Jamie Brooks,jamie@example.com,Dashboard access denied,The customer receives an access denied message when opening the dashboard.,HIGH,OPEN,2026-08-22T05:23:17Z
+T1040,C1010,Morgan Ellis,morgan@example.com,Workspace name change,Customer requests a new display name for the workspace.,LOW,CLOSED,2026-07-01T16:40:40Z
+T1041,C1001,Alice Johnson,alice@example.com,Login error after update,The customer started seeing a login error after a recent application update.,HIGH,OPEN,2026-08-08T03:57:03Z
+T1042,C1002,Marcus Lee,marcus@example.com,Invoice not available,The current invoice is not visible in the billing history page.,CRITICAL,IN_PROGRESS,2026-07-15T14:14:26Z
+T1043,C1003,Priya Shah,priya@example.com,Usage total differs,The usage total differs between the dashboard and downloaded report.,HIGH,RESOLVED,2026-08-22T01:31:49Z
+T1044,C1004,Sam Rivera,sam@example.com,Marketing email received,Customer received a marketing email after opting out of promotions.,MEDIUM,CLOSED,2026-07-01T12:48:12Z
+T1045,C1005,Jordan Kim,jordan@example.com,Password change confirmation,Customer requests confirmation that the account password was changed.,LOW,OPEN,2026-08-08T23:05:35Z
+T1046,C1006,Taylor Morgan,taylor@example.com,Export encoding issue,Special characters appear incorrectly in the downloaded report file.,MEDIUM,IN_PROGRESS,2026-07-15T10:22:58Z
+T1047,C1007,Riley Chen,riley@example.com,Security prompt loops,The security setup prompt appears again after it was completed.,HIGH,OPEN,2026-08-22T21:39:21Z
+T1048,C1008,Casey Patel,casey@example.com,Receipt download fails,The receipt download returns an error from the billing page.,MEDIUM,RESOLVED,2026-07-01T08:56:44Z
+T1049,C1009,Jamie Brooks,jamie@example.com,Dashboard date range wrong,The dashboard resets the selected date range after each refresh.,MEDIUM,OPEN,2026-08-08T19:13:07Z
+T1050,C1010,Morgan Ellis,morgan@example.com,Member role update,The customer cannot change a team member role from viewer to editor.,LOW,CLOSED,2026-07-15T06:30:30Z
+T1051,C1001,Alice Johnson,alice@example.com,Account locked after attempts,The customer account is locked after several unsuccessful login attempts.,CRITICAL,OPEN,2026-08-22T17:47:53Z
+T1052,C1002,Marcus Lee,marcus@example.com,Billing page error,The billing page displays an unexpected server error for the account.,CRITICAL,IN_PROGRESS,2026-07-01T04:04:16Z
+T1053,C1003,Priya Shah,priya@example.com,Report schedule missing,The scheduled report does not appear in the report history.,MEDIUM,RESOLVED,2026-08-08T15:21:39Z
+T1054,C1004,Sam Rivera,sam@example.com,Preference link broken,The notification preference link opens a page that cannot be found.,LOW,CLOSED,2026-07-15T02:38:02Z
+T1055,C1005,Jordan Kim, jordan@example.com,Password expiration notice,Customer wants to understand the password expiration notification.,LOW,OPEN,2026-08-22T13:55:25Z
+T1056,C1006,Taylor Morgan,taylor@example.com,Export permissions error,The customer cannot export data despite having reporting access.,HIGH,IN_PROGRESS,2026-07-01T00:12:48Z
+T1057,C1007,Riley Chen,riley@example.com,Backup code request,Customer needs a new set of backup codes for account access.,MEDIUM,OPEN,2026-08-08T11:29:11Z
+T1058,C1008,Casey Patel,casey@example.com,Payment method rejected,The saved payment method is rejected during subscription renewal.,HIGH,RESOLVED,2026-07-15T22:46:34Z
+T1059,C1009,Jamie Brooks,jamie@example.com,Chart labels overlap,Labels overlap on a dashboard chart at the selected screen size.,LOW,OPEN,2026-08-22T09:03:57Z
+T1060,C1010,Morgan Ellis,morgan@example.com,Member invitation expired,The invited team member cannot accept an expired workspace invitation.,LOW,CLOSED,2026-07-01T20:20:20Z
+T1061,C1001,Alice Johnson,alice@example.com,Login notification unexpected,Customer received a login notification for a session they do not recognize.,CRITICAL,OPEN,2026-08-08T07:37:43Z
+T1062,C1002,Marcus Lee,marcus@example.com,Invoice currency incorrect,The invoice uses the wrong currency for the customer's billing region.,HIGH,IN_PROGRESS,2026-07-15T18:54:06Z
+T1063,C1003,Priya Shah,priya@example.com,Report includes old data,The report includes records outside the selected reporting period.,MEDIUM,RESOLVED,2026-08-22T05:11:29Z
+T1064,C1004,Sam Rivera,sam@example.com,Email footer incorrect,Notification emails display an outdated company footer and address.,LOW,CLOSED,2026-07-01T16:28:52Z
+T1065,C1005,Jordan Kim,jordan@example.com,Reset instructions unclear,Customer requests clearer instructions for completing a password reset.,LOW,OPEN,2026-08-08T03:45:15Z
+T1066,C1006,Taylor Morgan,taylor@example.com,Export file too large,The generated export exceeds the expected file size for the selected data.,HIGH,IN_PROGRESS,2026-07-15T14:02:38Z
+T1067,C1007,Riley Chen,riley@example.com,Authenticator code delayed,Authenticator codes arrive too late to complete the login flow.,HIGH,OPEN,2026-08-22T01:19:01Z
+T1068,C1008,Casey Patel,casey@example.com,Refund amount question,Customer asks why the refund amount differs from the original charge.,MEDIUM,RESOLVED,2026-07-01T12:36:24Z
+T1069,C1009,Jamie Brooks,jamie@example.com,Dashboard widget missing,The customer cannot find a widget that was previously visible.,MEDIUM,OPEN,2026-08-08T23:53:47Z
+T1070,C1010,Morgan Ellis,morgan@example.com,Workspace deletion request,Customer asks about permanently deleting an unused workspace.,LOW,CLOSED,2026-07-15T10:10:10Z
+T1071,C1001,Alice Johnson,alice@example.com,Login form clears input,The login form clears the username after an invalid password response.,MEDIUM,OPEN,2026-08-22T21:27:33Z
+T1072,C1002,Marcus Lee,marcus@example.com,Subscription renewal failed,The subscription did not renew even though the payment method is valid.,CRITICAL,IN_PROGRESS,2026-07-01T08:44:56Z
+T1073,C1003,Priya Shah,priya@example.com,Usage report email missing,The scheduled usage report email was not delivered to recipients.,HIGH,RESOLVED,2026-08-08T19:01:19Z
+T1074,C1004,Sam Rivera,sam@example.com,Notification language request,Customer requests notifications in a different supported language.,LOW,CLOSED,2026-07-15T06:18:42Z
+T1075,C1005,Jordan Kim,jordan@example.com,Password reset from mobile,Customer cannot complete a password reset from a mobile device.,HIGH,OPEN,2026-08-22T17:35:05Z
+T1076,C1006,Taylor Morgan,taylor@example.com,Report export hangs,The report export remains processing without producing a download.,HIGH,IN_PROGRESS,2026-07-01T04:52:28Z
+T1077,C1007,Riley Chen,riley@example.com,Security key not detected,The browser does not detect the registered security key.,HIGH,OPEN,2026-08-08T15:09:51Z
+T1078,C1008,Casey Patel,casey@example.com,Receipt email delayed,The payment receipt email has not arrived after the transaction completed.,MEDIUM,RESOLVED,2026-07-15T02:26:14Z
+T1079,C1009,Jamie Brooks,jamie@example.com,Dashboard totals rounded,Dashboard totals are rounded differently from the detailed report values.,LOW,OPEN,2026-08-22T13:43:37Z
+T1080,C1010,Morgan Ellis,morgan@example.com,Change workspace owner,Customer requests guidance for transferring workspace ownership.,LOW,CLOSED,2026-07-01T00:00:00Z
+T1081,C1001,Alice Johnson,alice@example.com,Login page unavailable,The customer cannot open the login page from the application link.,CRITICAL,OPEN,2026-08-08T11:17:23Z
+T1082,C1002,Marcus Lee,marcus@example.com,Unexpected billing credit,The billing statement contains a credit the customer does not recognize.,HIGH,IN_PROGRESS,2026-07-15T22:34:46Z
+T1083,C1003,Priya Shah,priya@example.com,Report recipients incorrect,The scheduled report was sent to an outdated recipient list.,MEDIUM,RESOLVED,2026-08-22T09:51:09Z
+T1084,C1004,Sam Rivera,sam@example.com,Opt out link unavailable,The customer cannot use the opt out link in a notification email.,MEDIUM,CLOSED,2026-07-01T20:08:32Z
+T1085,C1005,Jordan Kim,jordan@example.com,Password manager compatibility,Customer reports that password manager autofill is not working.,LOW,OPEN,2026-08-08T07:25:55Z
+T1086,C1006,Taylor Morgan,taylor@example.com,Export records duplicated,The downloaded report contains duplicate records for several customers.,HIGH,IN_PROGRESS,2026-07-15T18:42:18Z
+T1087,C1007,Riley Chen,riley@example.com,Recovery code rejected,A recovery code is rejected during the account recovery process.,HIGH,OPEN,2026-08-22T05:59:41Z
+T1088,C1008,Casey Patel,casey@example.com,Card update failed,The customer cannot save a replacement payment card.,HIGH,RESOLVED,2026-07-01T16:16:04Z
+T1089,C1009,Jamie Brooks,jamie@example.com,Dashboard refresh fails,The refresh action fails and leaves the previous metrics displayed.,MEDIUM,OPEN,2026-08-08T03:33:27Z
+T1090,C1010,Morgan Ellis,morgan@example.com,Workspace timezone update,Customer needs to update the workspace reporting timezone.,LOW,CLOSED,2026-07-15T14:50:50Z
+T1091,C1001,Alice Johnson,alice@example.com,Login support request,Customer requests assistance signing in from a new browser.,MEDIUM,OPEN,2026-08-22T01:07:13Z
+T1092,C1002,Marcus Lee,marcus@example.com,Invoice line item missing,An expected line item is missing from the current subscription invoice.,HIGH,IN_PROGRESS,2026-07-01T12:24:36Z
+T1093,C1003,Priya Shah,priya@example.com,Report totals missing,The generated report omits totals at the bottom of the document.,MEDIUM,RESOLVED,2026-08-08T23:41:59Z
+T1094,C1004,Sam Rivera,sam@example.com,Notification unsubscribe delayed,Customer continues receiving messages after unsubscribing yesterday.,MEDIUM,CLOSED,2026-07-15T10:58:22Z
+T1095,C1005,Jordan Kim,jordan@example.com,Password reset question,Customer asks whether a password reset will sign out existing sessions.,LOW,OPEN,2026-08-22T21:15:45Z
+T1096,C1006,Taylor Morgan,taylor@example.com,Export date format issue,The export uses a date format that is difficult to process downstream.,LOW,IN_PROGRESS,2026-07-01T08:32:08Z
+T1097,C1007,Riley Chen,riley@example.com,Two factor enrollment failed,The customer receives an error while enrolling a second factor.,HIGH,OPEN,2026-08-08T19:49:31Z
+T1098,C1008,Casey Patel,casey@example.com,Refund not visible,An approved refund is not visible in the customer's transaction history.,HIGH,RESOLVED,2026-07-15T06:06:54Z
+T1099,C1009,Jamie Brooks,jamie@example.com,Dashboard permissions stale,Dashboard access does not reflect the customer's updated role.,HIGH,OPEN,2026-08-22T17:23:17Z
+T1100,C1010,Morgan Ellis,morgan@example.com,Team member audit request,Customer requests an audit of recent workspace member changes.,LOW,CLOSED,2026-07-01T04:40:40Z

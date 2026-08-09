@@ -2,7 +2,8 @@ import json
 import logging
 
 from .exceptions import TicketValidationError
-from .models import Customer, SupportTicket, TicketPriority
+from .repository import load_sample_tickets
+from .service import get_high_priority_tickets
 from .validation import validate_ticket
 
 # Import the named application logger you created in Block 4.
@@ -16,20 +17,8 @@ def main() -> None:
     logger = logging.getLogger(__name__)
     logger.info("Starting support ticket intake workflow")
 
-    # 1. Create sample non-sensitive ticket data.
-    customer = Customer(
-        name="Alice Johnson",
-        customer_id="C1001",
-        email="alice@example.com",
-    )
-
-    ticket = SupportTicket(
-        ticket_id="T1001",
-        customer=customer,
-        subject="Unable to login",
-        description="Customer cannot access the application.",
-        priority=TicketPriority.HIGH,
-    )
+    tickets = load_sample_tickets()
+    ticket = get_high_priority_tickets(tickets)[0]
 
     try:
         # 2. Validate the ticket.
