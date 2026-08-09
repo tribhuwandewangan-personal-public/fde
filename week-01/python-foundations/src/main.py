@@ -2,7 +2,7 @@ import json
 import logging
 
 from .exceptions import TicketValidationError
-from .repository import load_sample_tickets
+from .repository import load_tickets
 from .service import get_high_priority_tickets
 from .validation import validate_ticket
 
@@ -17,7 +17,7 @@ def main() -> None:
     logger = logging.getLogger(__name__)
     logger.info("Starting support ticket intake workflow")
 
-    tickets = load_sample_tickets()
+    tickets = load_tickets()
     ticket = get_high_priority_tickets(tickets)[0]
 
     try:
